@@ -34,18 +34,33 @@ h1 {
   margin-top: 45px;
 }
 
+section {
+  width: 85%;
+  margin: 0 auto;
+}
 .img-div {
+  height: 200px;
+  width: 200px;
+  opacity: 0;
 }
 
 .active {
   height: 200px;
   width: 200px;
-  background: black;
+  opacity: 1;
   transition: all 1s;
+}
+.two,
+.four {
+  align-self: flex-end;
 }
 
 .img-div:first-child {
   margin-top: 100px;
+}
+
+img {
+  object-fit: contain;
 }
 
 @keyframes gradient {
