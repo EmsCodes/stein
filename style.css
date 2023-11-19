@@ -28,6 +28,10 @@ h1 {
   margin: 0 auto;
   color: #a35414;
   margin-top: -60px;
+  width: 85vw;
+  padding: 15px;
+  background: #1229398a;
+  border-radius: 50px;
 }
 
 .content {
@@ -41,6 +45,7 @@ h1 {
   transform: translateX(-50%);
   border-left: 3px solid #a35414;
   height: 85%;
+  margin-top: -25px;
 }
 
 section {
